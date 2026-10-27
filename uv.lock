@@ -6,6 +6,12 @@ resolution-markers = [
     "python_full_version < '3.14'",
 ]
 
+[manifest]
+members = [
+    "belajar-git-python",
+    "mentor-bahasa-inggris-virtual",
+]
+
 [[package]]
 name = "agent-detector"
 version = "2.0.0"
@@ -57,6 +63,11 @@ sdist = { url = "https://files.pythonhosted.org/packages/8c/6b/eeff360196bb20b31
 wheels = [
     { url = "https://files.pythonhosted.org/packages/42/c9/8638db32514dbb9157b3d82680c6faea89283523edf9ed2415ea3884f2ae/apscheduler-3.11.3-py3-none-any.whl", hash = "sha256:bbeb2ec02d23d3c06a6c07ed7f0f3939ada6680eb121fae809a69bb42c537a30", size = 66024, upload-time = "2026-06-28T19:39:20.982Z" },
 ]
+
+[[package]]
+name = "belajar-git-python"
+version = "0.1.0"
+source = { virtual = "belajar-git-python" }
 
 [[package]]
 name = "certifi"
